@@ -1,0 +1,40 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. GALANCOBOL.
+
+       ENVIRONMENT DIVISION.
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+       SELECT CLIENTES ASSIGN TO 'clientes.txt'
+           ORGANIZATION IS LINE SEQUENTIAL.
+
+       DATA DIVISION.
+       FILE SECTION.
+       FD  CLIENTES.
+       01  REGISTRO-CLIENTE.
+       05  ID-CLIENTE     PIC 9(5).
+       05  NOMBRE         PIC A(30).
+       05  SALDO          PIC 9(7)V99.
+
+       WORKING-STORAGE SECTION.
+       01  FIN-DE-ARCHIVO     PIC X VALUE 'N'.
+
+       PROCEDURE DIVISION.
+       INICIO.
+           OPEN INPUT CLIENTES
+           PERFORM LEER-CLIENTE
+           PERFORM UNTIL FIN-DE-ARCHIVO = 'S'
+           DISPLAY "Cliente: " NOMBRE " - Saldo: $" SALDO
+           PERFORM LEER-CLIENTE
+           END-PERFORM
+           CLOSE CLIENTES
+           STOP RUN.
+
+           LEER-CLIENTE.
+           READ CLIENTES
+           AT END MOVE 'S' TO FIN-DE-ARCHIVO.
+
+
+
+
+
+
