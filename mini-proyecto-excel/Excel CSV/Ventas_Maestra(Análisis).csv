@@ -1,0 +1,7 @@
+﻿;Producto;Valores;;;;;;
+;A123;;B456;;C789;;Total Suma de Cantidad;Total Suma de Monto
+Mes;Suma de Cantidad;Suma de Monto;Suma de Cantidad;Suma de Monto;Suma de Cantidad;Suma de Monto;;
+1;10;200;5;150;8;320;23;670
+2;12;240;6;180;9;360;27;780
+3;15;300;7;210;10;400;32;910
+Total general;37;740;18;540;27;1080;82;2360

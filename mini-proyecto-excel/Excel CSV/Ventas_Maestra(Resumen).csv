@@ -1,0 +1,25 @@
+﻿Hoja: Resumen – Ene-Mar 2025;;;;
+Generado el: 26/09/2025;;;;
+Indicadores Clave (KPIs);;;;
+Indicador;Valor;;;
+Ventas Totales (Monto);2360;;;
+Cantidad Total Vendida;82;;;
+Producto más vendido;C789;;;
+Producto con mayor ingreso;C789;;;
+;;;;
+Mini-tabla por mes;;;;
+Mes;Total Cantidad;Total Monto;Producto top Cantidad;Producto top Monto
+1;23;670;C789;C789
+2;27;780;C789;C789
+3;32;910;C789;C789
+;;;;
+Resumen por producto;;;;
+Producto;A123;B456;C789;Total
+Cantidad Mes 1;10;5;8;23
+Monto Mes 1;200;150;320;670
+Cantidad Mes 2;12;6;9;27
+Monto Mes 2;240;180;360;780
+Cantidad Mes 3;15;7;10;32
+Monto Mes 3;300;210;400;910
+Total Cantidad;37;18;27;82
+Total Monto;740;540;1080;2360

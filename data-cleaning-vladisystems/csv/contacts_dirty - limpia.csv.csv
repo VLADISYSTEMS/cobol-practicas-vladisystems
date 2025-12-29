@@ -1,0 +1,51 @@
+Nombre_limpio,Email_limpio,Email_valido,Tel_digits,Telefono_normalizado,Ciudad_limpia
+María Cano,maría.cano@gmail.com,OK,573140392474,+57573140392474,Barranquilla
+Roberto Ortega,roberto.ortega@yahoo.com,OK,573210778887,+57573210778887,Ibagué
+Ana Salazar,ana.salazar@gmail.com,OK,573132811016,+57573132811016,Soacha
+Juan Pérez,juan.perez@gmail.com,OK,573101234567,+57573101234567,Bogotá
+José Rodríguez,josé.rodríguez@hotmail.com,OK,573163033186,+57573163033186,Pereira
+Carlos Gomez,carlosgomezhotmail.com,ERROR,573209876543,+57573209876543,Cali
+Andrés Santos,andrés.santos at company.com,ERROR,573004663270,+57573004663270,Pereira
+Fernando Mora,fernando.mora@gmail.com,OK,573004294421,+57573004294421,Pereira
+Carlos Herrera,carlos.herrera@hotmail.com,OK,573107435191,+57573107435191,Cali
+Ana Herrera,ana.herrera@company.com,OK,573101971259,+57573101971259,Soacha
+Juan Santos,juan.santos@gmail.com,OK,573212212593,+57573212212593,Manizales
+Juan Gómez,juan.gómez@yahoo.com,OK,573145833328,+57573145833328,Cartagena
+Roberto Rojas,roberto.rojas (at) outlook.com,ERROR,573109457645,+57573109457645,Cartagena
+Laura Hernández,laurahernández@yahoocom,ERROR,573130401664,+57573130401664,Barranquilla
+Carlos Rojas,carlos.rojas@company.con,OK,573102734654,+57573102734654,Pereira
+Miguel Díaz,miguel.díaz@gmail.com,OK,573162582763,+57573162582763,Barranquilla
+Carlos González,carlos.gonzález@yahoo.com,OK,573130873664,+57573130873664,Manizales
+Juan Pérez,juan.perez @gmail .com,OK,573101234567,+57573101234567,Bogotá
+María López,maria.lopez@gnail.com,OK,573119876543,+57573119876543,Medellín
+José Suárez,josé.suárezcompany.com,ERROR,573211895085,+57573211895085,Bogotá
+Miguel Suárez,miguel.suárez@company.com,OK,573133257687,+57573133257687,Manizales
+Laura López,laura.lópez@hotmail.com,OK,573113638150,+57573113638150,Bucaramanga
+Carlos Herrera,carlos.herrera@company.com,OK,573106073841,+57573106073841,Bucaramanga
+Laura González,laura.gonzález@outlook.com,OK,573200937768,+57573200937768,Bucaramanga
+Andrés Ortega,andrés.ortega@gmail.com,OK,573118523813,+57573118523813,Pereira
+Laura Mejía,laura.mejía@outlook.com,OK,573139309433,+57573139309433,Bucaramanga
+Paula Vargas,paula.vargas@company.com,OK,573117774122,+57573117774122,Barranquilla
+Carlos Mora,carlos.mora@hotmail.com,OK,573137629474,+57573137629474,Cartagena
+Luis Gómez,luisgómez@yahoocom,ERROR,573008001456,+57573008001456,Medellín
+Paula Rivas,paula.rivas (at) hotmail.com,ERROR,573145801401,+57573145801401,Pereira
+Laura Vargas,laura.vargas at yahoo.com,ERROR,573000842027,+57573000842027,
+Roberto Hernández,roberto.hernández@gmail.com,OK,573139704830,+57573139704830,Soacha
+Laura Mejía,laura.mejía@hotmial.com,OK,573208522430,+57573208522430,Cali
+Miguel Mejía,miguel.mejía@hotmail.com,OK,573153747551,+57573153747551,Barranquilla
+Andrés Castillo,andrés.castillo@yahoo.con,OK,573157617633,+57573157617633,Medellín
+Marta Suárez,marta.suárez@hotmail.com,OK,573135510244,+57573135510244,Soacha
+Andrés Vargas,andrés.vargas at company.com,ERROR,573004275990,+57573004275990,Ibagué
+María Cano,maría.cano@hotmail.com,OK,573200590564,+57573200590564,Cartagena
+Natalia Martínez,natalia.martínez@hotmail.com,OK,573162872654,+57573162872654,Bogotá
+Natalia González,natalia.gonzález@hotmail.com,OK,573155255979,+57573155255979,Bucaramanga
+Fernando Hernández,fernando.hernández@gmail.com,OK,573206335268,+57573206335268,Cartagena
+Luis Ortega,luis.ortegahotmail.com,ERROR,573105703289,+57573105703289,Manizales
+Sofía Herrera,sofía.herrera at hotmail.com,ERROR,573116983358,+57573116983358,Bogotá
+Ana Martínez,ana.martinez@company.con,OK,57301234567,+5757301234567,
+Diego Castillo,diego.castillo@outlook.com,OK,573131147637,+57573131147637,Bogotá
+María Castillo,maría.castillo@company.com,OK,573162588439,+57573162588439,Barranquilla
+Carlos González,carlos.gonzález@gnail.com,OK,573134488682,+57573134488682,Ibagué
+María Mora,maría.mora@company.com,OK,573007683336,+57573007683336,
+María Rodríguez,maría.rodríguez@hotmail.com,OK,573136120503,+57573136120503,Bucaramanga
+Camila Rojas,camila.rojas@company.com,OK,573101612427,+57573101612427,Ibagué
