@@ -1,0 +1,42 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. DEMO-ACCESS-SEQUENTIAL-1-3.
+
+       ENVIRONMENT DIVISION.
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+           SELECT ARCHIVO-CLIENTES ASSIGN TO "clientes.txt"
+               ORGANIZATION IS LINE SEQUENTIAL
+               ACCESS MODE IS SEQUENTIAL
+               FILE STATUS IS ESTADO-FILE.
+
+       DATA DIVISION.
+       FILE SECTION.
+       FD  ARCHIVO-CLIENTES
+           RECORD CONTAINS 50 CHARACTERS
+           DATA RECORD IS REGISTRO-CLIENTE.
+       01  REGISTRO-CLIENTE     PIC X(50).
+
+       WORKING-STORAGE SECTION.
+       77  ESTADO-FILE          PIC XX.
+       77  FIN-ARCHIVO          PIC X VALUE "N".
+
+       PROCEDURE DIVISION.
+       INICIO.
+           DISPLAY "== DEMO ACCESS SEQUENTIAL ==".
+           OPEN INPUT ARCHIVO-CLIENTES
+
+           PERFORM HASTA-FIN
+           CLOSE ARCHIVO-CLIENTES
+           DISPLAY "== FIN DEL PROGRAMA =="
+
+           STOP RUN.
+
+       HASTA-FIN.
+           PERFORM UNTIL FIN-ARCHIVO = "S"
+               READ ARCHIVO-CLIENTES
+                   AT END
+                       MOVE "S" TO FIN-ARCHIVO
+                   NOT AT END
+                       DISPLAY ">> Cliente: " REGISTRO-CLIENTE
+               END-READ
+           END-PERFORM.
